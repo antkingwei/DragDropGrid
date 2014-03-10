@@ -66,6 +66,7 @@ public class DragDropGrid extends ViewGroup implements OnTouchListener, OnLongCl
 	private PagedContainer container;
 
 	private SparseIntArray newPositions = new SparseIntArray();
+	
 
 	private int gridPageWidth = 0;
 	private int dragged = -1;
